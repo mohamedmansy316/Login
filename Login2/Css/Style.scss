@@ -1,0 +1,258 @@
+
+
+section .parent {
+    margin-top: 100px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    border: 4px solid #51b0d4;
+    margin-top: 5%;
+  
+    border-radius: 20px;
+    
+}
+.side1{
+    text-align:center;
+}
+.header {
+    .nav {
+        margin: 0 auto;
+    }
+
+    .nav img {
+        margin: auto auto;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    @media(min-width:992px) and (max-width:1200px) {
+       h3{ font-size: 25px;
+           }
+    }
+}
+
+
+
+.login {
+    margin-bottom: 33px;
+
+    p {
+        font-size: 13px;
+    }
+
+    a {
+        color: #167CC5;
+    }
+
+    input {
+        margin-bottom: 10px;
+        border-radius: 10px;
+        height: 35px;
+        width: 240px;
+    }
+
+    i {
+        font-size: 24px;
+    }
+
+    .signup {
+        width: 340px;
+    }
+
+    .input-field {
+        width: 72%;
+        background-color: #f0f0f0;
+        border-radius: 55px;
+        display: grid;
+        grid-template-columns: 15% 85%;
+        position: relative;
+        margin: 17px auto;
+    }
+
+    .input-field i {
+        line-height: 55px;
+        color: #acacac;
+        font-size: 1.1rem;
+        margin-top: -3px;
+        margin-left: 14px;
+    }
+
+    .input-field input {
+        background: none;
+        outline: none;
+        border: none;
+        line-height: 1;
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: #333;
+        margin-top: 7px;
+    }
+
+
+
+
+    .sigin {
+        background-color: #167CC5;
+    }
+
+    .sigin input {
+        color: white;
+        font-size: 0.9rem;
+        margin-left: 74%;
+        @media(min-width:992px) and (max-width:1200px){
+            margin-left:38%;
+        }
+    
+}
+}
+.paragraph {
+    p {
+        margin-top: 3px;
+    }
+
+    border: 2px solid #167CC5;
+    margin-top: -16px;
+    width: 41px;
+    height: 36px;
+}
+.or {
+    background-color: #00000052;
+    height: 2px;
+    margin-top: 0px;
+    width: 32%;
+   
+   
+   
+}
+
+.or2 {
+    width: 32%;
+    background-color: #00000052;
+    height: 2px;
+   
+   
+}
+
+.social {
+    margin-top: 30px;
+
+    p {
+        letter-spacing: 2px;
+        font-size:13px;
+    }
+
+
+    .social-media {
+        display: flex;
+        margin:10px 22%;
+       justify-content:center;
+    }
+
+    .social-icon {  
+        height: 46px;
+        width: 46px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0.45rem;
+        color: #333;
+        border-radius: 50%;
+        border: 1px solid #333;
+        text-decoration: none;
+        font-size: 1.1rem;
+        @media(min-width:992px) and (max-width:1200px){
+            height:39px;
+        }
+        
+    }
+
+
+
+    .face:hover {
+        border: 1px solid #1873EB;
+
+        .fa-facebook-f {
+            color: #1873EB;
+        }
+    }
+
+    .twitter:hover {
+        border: 1px solid #1C9CEA;
+
+        .fa-twitter {
+            color: #1C9CEA
+        }
+    }
+
+    .instagram:hover {
+        border: 1px solid #BE008D;
+
+        .fa-instagram {
+            color: #BE008D;
+        }
+    }
+
+    .google:hover {
+        border: 1px solid #C44938;
+
+        .fa-google-plus-g {
+            color: #C44938;
+        }
+    }
+}
+
+.side2 {
+    background-size: cover;
+    border-radius: 0px 15px 13px 0px;
+
+    .overlay {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        opacity: 0.5;
+        border-radius: 0px 15px 13px 0px;   
+    }
+
+    img {
+        position: relative;
+        background-size: cover;
+        width: 103%;
+        height: 100%;
+        border-radius: 0px 15px 13px 0px;
+    }
+
+    p {
+        position: absolute;
+        z-index: 3;
+        color: white;
+        margin-top: 45%;
+        text-align: center;
+        width: 73%;
+        margin-left: 92px;
+    }
+
+    i {
+        position: absolute;
+        width: 50px;
+        z-index: 4;
+        font-size: 54px;
+        margin-top: 34%;
+        color: honeydew;
+        margin-left: 46%;
+    }
+    @media(min-width:768px) and (max-width:992px){
+        
+       i{
+           display:none;
+       }
+       p{
+           display:none;
+       }
+
+    }
+}
