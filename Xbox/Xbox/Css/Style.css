@@ -1,0 +1,180 @@
+body {
+  background-color: #F3F2F1; }
+  body p {
+    font-size: 18px; }
+
+nav {
+  background-color: white;
+  height: 86px; }
+  nav a {
+    color: black;
+    margin-left: 27px;
+    text-decoration: none;
+    font-size: 21px; }
+  nav:hover {
+    text-decoration: none; }
+  nav .navlinks {
+    padding: 28px 0px 0px 50px; }
+  nav .break-P {
+    margin-left: 20px; }
+  nav .break {
+    background-color: #3e4040;
+    width: 2px;
+    height: 29px;
+    position: absolute;
+    margin-left: -14px; }
+
+.title {
+  padding: 51px;
+  margin-left: 118px; }
+  .title h1 {
+    font-weight: 400;
+    font-size: 31px; }
+
+.content h2 {
+  margin-top: 19px;
+  font-size: 30px; }
+.content .contact-image {
+  background-color: #f9f9f9; }
+  .content .contact-image img {
+    float: right; }
+.content .contact-info .head-p {
+  margin: 20px 0; }
+.content .contact-info input {
+  background-color: #107c10;
+  border: none;
+  padding: 11px 25px;
+  color: white;
+  font-weight: 400;
+  font-size: 18px; }
+.content .email-support {
+  margin-left: 50px; }
+
+.Questions-sec .questions {
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 30px;
+  padding: 15px;
+  height: 221px;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.7);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.7);
+  box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.7); }
+  .Questions-sec .questions input {
+    background-color: #107c10;
+    border: none;
+    padding: 11px 25px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 45px; }
+  .Questions-sec .questions a {
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 10px;
+    color: #107c10;
+    text-decoration: underline; }
+  .Questions-sec .questions p {
+    margin: 15px 0px; }
+  .Questions-sec .questions img {
+    width: 85%; }
+
+.notification-sec {
+  margin-top: 60px; }
+  .notification-sec input {
+    background-color: #107c10;
+    border: none;
+    padding: 11px 25px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px; }
+  .notification-sec .side1 img {
+    width: 77px; }
+  .notification-sec .side2 .notification {
+    display: none; }
+  .notification-sec .side2 .notification-hide {
+    display: none; }
+  .notification-sec .side2 .resolve-box {
+    background-color: white;
+    position: absolute;
+    right: 25px;
+    top: -145px;
+    padding: 18px 30px 15px 13px;
+    box-shadow: 0px 2px 6px -3px;
+    display: none; }
+    .notification-sec .side2 .resolve-box input {
+      margin-left: 10px;
+      font-size: 26px;
+      padding: 0px;
+      background-color: white;
+      color: black;
+      width: 100%;
+      display: block;
+      margin-bottom: 5px; }
+      .notification-sec .side2 .resolve-box input:hover {
+        background-color: #2a292926; }
+  .notification-sec .notification-side {
+    padding: 26px 26px 23px 10px;
+    width: 100vh;
+    background-color: white;
+    box-shadow: 0px 2px 6px -3px;
+    position: relative;
+    margin-bottom: 10px;
+    display: flex; }
+    .notification-sec .notification-side img {
+      width: 23px;
+      background-size: 100%;
+      height: 25px;
+      transform: rotate(90deg);
+      position: absolute;
+      right: 14px;
+      top: 10px; }
+    .notification-sec .notification-side i {
+      font-size: 37px;
+      color: green;
+      margin-left: 10px; }
+    .notification-sec .notification-side .side_color2 {
+      position: absolute;
+      height: 100%;
+      width: 10px;
+      left: 0;
+      top: 0;
+      background: #757575; }
+    .notification-sec .notification-side .side_color {
+      position: absolute;
+      height: 100%;
+      width: 10px;
+      left: 0;
+      top: 0;
+      background: #ffaa44; }
+    .notification-sec .notification-side .icon {
+      margin-top: 20px;
+      margin-right: 25px;
+      margin-left: 35px; }
+      .notification-sec .notification-side .icon p {
+        margin-left: -6px; }
+    .notification-sec .notification-side .notification-content {
+      margin-left: 30px; }
+      .notification-sec .notification-side .notification-content .break {
+        width: 2px;
+        height: 67%;
+        background-color: #545b628a;
+        position: absolute;
+        margin-left: -27px; }
+
+.feedback-parent {
+  margin-top: 40px;
+  background-color: #F3F2F1; }
+  .feedback-parent .feedback-child {
+    background-color: white;
+    box-shadow: 0px 2px 6px -3px;
+    padding: 12px;
+    text-align: center; }
+    .feedback-parent .feedback-child input {
+      background-color: #107c10;
+      border: none;
+      padding: 11px 25px;
+      color: white;
+      font-weight: 400;
+      font-size: 18px; }
+
+/*# sourceMappingURL=Style.css.map */
