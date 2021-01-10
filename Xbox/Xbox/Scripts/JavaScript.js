@@ -1,4 +1,10 @@
-﻿$("#More").click(function () {
+﻿
+
+
+
+
+
+$("#More").click(function () {
     $("#Less").removeAttr("disabled");
 
 
@@ -85,3 +91,8 @@ $(".option-show7").click(function () {
     $(".box2 , .box3 , .box4 , .box5 , .box6 , .box1").fadeOut();
 
 })
+
+
+
+
+

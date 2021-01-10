@@ -6,29 +6,49 @@
     <link href="fonts/css/all.css" rel="stylesheet" />
     <link href="fonts/css/fontawesome.css" rel="stylesheet" />
     <link rel="stylesheet" href="Css/Style.css" />
-  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script>
+        $(window).load(function () {
+
+            $(".start-loading").fadeOut("slow");
+            $(".page").hide();
+            $(".page").fadeIn(2000);
+           
+        });
+    </script>
+
     <title> Contact Us</title>
 </head>
 <body>
-    <!-- Start Navbar-->
-    <nav>
-        <div class="container-fluid">
-            <div class="row d-flex justify-content-around">
-                <div class="navlinks ">
-                    <img src="Images/RE1Mu3b.png" style="width:120px;" />
-                    <div class="break-P d-inline-block">
-                        <div class="break"></div>
-                        <img class="xbox-logo" src="Images/RW4ESm.png" style="width:110px" />
-                    </div>
-                    <a  class="link" href="#">Support Home </a>
-                    <a  class="link"  href="#">Xbox Status </a>
-                    <a  class="link" href="#">Help Topics </a>
-                    <a  class="link" href="#">Accessible Gaming </a>
-                    <a  class="link" href="#">New In Support </a>
-                </div>
+    <div class="start-loading">
+        <img src="Images/20228.png" />
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3 "></div>
 
-                <div >
-                  
+    </div>
+
+    <div class="page">
+        <!--Start Navbar-->
+        <nav>
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-around">
+                    <div class="navlinks ">
+                        <img src="Images/RE1Mu3b.png" style="width:120px;" />
+                        <div class="break-P d-inline-block">
+                            <div class="break"></div>
+                            <img class="xbox-logo" src="Images/RW4ESm.png" style="width:110px" />
+                        </div>
+                        <a class="link" href="#">Support Home </a>
+                        <a class="link" href="#">Xbox Status </a>
+                        <a class="link" href="#">Help Topics </a>
+                        <a class="link" href="#">Accessible Gaming </a>
+                        <a class="link" href="#">New In Support </a>
+                    </div>
+
+                    <div>
+
                         <a href="#">All Microsoft</a>
                         <a href="#">Search <i class="fas fa-search"></i></a>
                         <a href="#"> Sign In <i class="far fa-user-circle"></i></a>
@@ -36,286 +56,277 @@
                 </div>
 
             </div>
-        
 
-    </nav>
-    <!-- End Navbar-->
-    <!-- Start title-->
-    <div class="title">
-        <h1>Contact us</h1>
-    </div>
-    <!-- End title-->
-    <!-- Start Head Content-->
-    <div class="content container-fluid" style="background-color:white">
-        <div class="row">
-            <div class="contact-image col-lg-6">
-                <img src="Images/Screenshot_8.png" />
-            </div>
-            <div class="contact-info col-lg-6">
-                <h2>Still need Help ?</h2>
-                <p>Request a Call, Chat,and More.</p>
-                <input type="button" value="Contact us" />
-                <hr />
-                <p style="font-weight:500;">Contact Times </p>
-                <div class="justify-content-lg-start d-flex">
-                    <div class="phone-support">
-                        <span><i class="fas fa-phone-alt"></i> Phone Support</span>
-                        <p style="margin-bottom:0px;">Monday to Friday: 6:00am-5:00pm PT</p>
-                        <p>Saturday to Sunday: 6:00am-5:00pm PT</p>
-                    </div>
-                    <div class="email-support">
-                        <span> <i class="far fa-comment-alt"></i>  Web Chat</span>
-                        <p>Monday to Sunday: 24 hours a day</p>
+
+        </nav>
+        <!--End Navbar-->
+        <!--Start title-->
+        <div class="title">
+            <h1>Contact us</h1>
+        </div>
+        <!--End title-->
+        <!--Start Head Content-->
+        <div class="content container-fluid" style="background-color:white">
+            <div class="row">
+                <div class="contact-image col-lg-6">
+                    <img src="Images/Screenshot_8.png" />
+                </div>
+                <div class="contact-info col-lg-6">
+                    <h2>Still need Help ?</h2>
+                    <p>Request a Call, Chat,and More.</p>
+                    <input type="button" value="Contact us" />
+                    <hr />
+                    <p style="font-weight:500;">Contact Times </p>
+                    <div class="justify-content-lg-start d-flex">
+                        <div class="phone-support">
+                            <span><i class="fas fa-phone-alt"></i> Phone Support</span>
+                            <p style="margin-bottom:0px;">Monday to Friday: 6:00am-5:00pm PT</p>
+                            <p>Saturday to Sunday: 6:00am-5:00pm PT</p>
+                        </div>
+                        <div class="email-support">
+                            <span> <i class="far fa-comment-alt"></i>  Web Chat</span>
+                            <p>Monday to Sunday: 24 hours a day</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End Head Content-->
-    <!-- Start Questions Content-->
-    <section class="Questions-sec">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="questions col-lg-5 col-xl-5 col-md-12 col-sm-12 justify-content-between d-flex">
-                    <div>
-                        <h2>Disability answer desk</h2>
-                        <p class="head-p">Accessible help and resources to get your Xbox questions answered.</p>
-                        <a href="#">Get answers</a>
+        <!--End Head Content-->
+        <!--Start Questions Content-->
+        <section class="Questions-sec">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="questions col-lg-5 col-xl-5 col-md-12 col-sm-12 justify-content-between d-flex">
+                        <div>
+                            <h2>Disability answer desk</h2>
+                            <p class="head-p">Accessible help and resources to get your Xbox questions answered.</p>
+                            <a href="#">Get answers</a>
+                        </div>
+                        <div>
+                            <img src="Images/SXC-Cards-Home-AdaptiveController-small-s-192x192-1x1-01.a02529e7.png" />
+                        </div>
+
                     </div>
-                    <div>
-                        <img src="Images/SXC-Cards-Home-AdaptiveController-small-s-192x192-1x1-01.a02529e7.png" />
+                    <div class="questions col-lg-5 col-xl-5 col-md-12 col-sm-12 justify-content-between d-flex">
+                        <div>
+                            <h2>Try our virtual agent</h2>
+                            <p>Get fast automated support, 24/7</p>
+                            <input type="button" value="Ask a Question" />
+                        </div>
+                        <div>
+                            <img src="Images/SXC-Cards-HomeContact-VA-small-s-192x192-1x1-01.fa495aa6.png" />
+                        </div>
                     </div>
 
                 </div>
-                <div class="questions col-lg-5 col-xl-5 col-md-12 col-sm-12 justify-content-between d-flex">
-                    <div>
-                        <h2>Try our virtual agent</h2>
-                        <p>Get fast automated support, 24/7</p>
-                        <input type="button" value="Ask a Question" />
+
+            </div>
+        </section>
+        <!--End Questions Content-->
+        <!--Start Notification Section-->
+        <section class="notification-sec">
+            <div class="container-fluid">
+
+                <div class="row d-flex justify-content-between">
+
+                    <div class="side1 col-lg-5 text-center">
+                        <img src="Images/waving-hand.png" />
+                        <h2>Hey there!</h2>
+                        <p>Things often go a lot faster when we know you.</p>
+                        <input type="button" value="Sign in" />
                     </div>
-                    <div>
-                        <img src="Images/SXC-Cards-HomeContact-VA-small-s-192x192-1x1-01.fa495aa6.png" />
+
+                    <div class="side2 col-lg-7">
+                        <div>
+                            <h3>Notifications</h3>
+                            <!--start Notification section1-->
+                            <div class="notification-side d-flex justify-content-center">
+                                <div class="side_color"></div>
+                                <div class="icon">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                    <p>Attention</p>
+                                </div>
+                                <div>
+                                    <div class="notification-content">
+                                        <a class="option-show1"><img src="Images/more-options.png" /> </a>
+                                        <div class="break"></div>
+                                        <h2>Can't Launch a game or a app ? </h2>
+                                        <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
+                                    </div>
+
+                                </div>
+                                <div class="resolve-box box1">
+                                    <h3>Did this resolve your issue ?</h3>
+                                    <input type="button" value="Yes" />
+                                    <input type="button" value="No" />
+                                </div>
+                            </div>
+                            <!--End Notification section1-->
+                            <!--start Notification section2-->
+                            <div class="notification-side d-flex justify-content-center">
+                                <div class="side_color"></div>
+                                <div class="icon">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                    <p>Attention</p>
+                                </div>
+                                <div>
+                                    <div class="notification-content">
+                                        <a class="option-show2"><img src="Images/more-options.png" /> </a>
+                                        <div class="break"></div>
+                                        <h2>Can't Launch a game or a app ? </h2>
+                                        <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
+                                    </div>
+
+                                </div>
+                                <div class="resolve-box box2">
+                                    <h3>Did this resolve your issue ?</h3>
+                                    <input type="button" value="Yes" />
+                                    <input type="button" value="No" />
+                                </div>
+                            </div>
+                            <!--End Notification section2-->
+                            <!--start Notification section3-->
+                            <div class="notification-side d-flex justify-content-center">
+                                <div class="side_color"></div>
+                                <div class="icon">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                    <p>Attention</p>
+                                </div>
+                                <div>
+                                    <div class="notification-content">
+                                        <a class="option-show3"><img src="Images/more-options.png" /> </a>
+                                        <div class="break"></div>
+                                        <h2>Can't Launch a game or a app ? </h2>
+                                        <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
+                                    </div>
+
+                                </div>
+                                <div class="resolve-box box3">
+                                    <h3>Did this resolve your issue ?</h3>
+                                    <input type="button" value="Yes" />
+                                    <input type="button" value="No" />
+                                </div>
+                            </div>
+                            <!--End Notification section3-->
+                            <!--start Notification section4-->
+                            <div class="notification-side  notification justify-content-center ">
+                                <div class="side_color2"></div>
+                                <div class="icon">
+                                    <i class="fas fa-info-circle"></i>
+                                    <p>Attention</p>
+                                </div>
+                                <div>
+
+                                    <div class="notification-content">
+                                        <a class="option-show4"><img src="Images/more-options.png" /> </a>
+                                        <div class="break"></div>
+                                        <h2>Can't Launch a game or a app ? </h2>
+                                        <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
+                                    </div>
+
+                                </div>
+                                <div class="resolve-box box4">
+                                    <h3>Did this resolve your issue ?</h3>
+                                    <input type="button" value="Yes" />
+                                    <input type="button" value="No" />
+                                </div>
+                            </div>
+                            <!--End Notification section4-->
+                            <!--start Notification section5-->
+                            <div class="notification-side notification justify-content-center  ">
+                                <div class="side_color2"></div>
+                                <div class="icon">
+                                    <i class="fas fa-info-circle"></i>
+                                    <p>Attention</p>
+                                </div>
+                                <div>
+                                    <div class="notification-content">
+                                        <a class="option-show5"><img src="Images/more-options.png" /> </a>
+                                        <div class="break"></div>
+                                        <h2>Can't Launch a game or a app ? </h2>
+                                        <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
+                                    </div>
+
+                                </div>
+                                <div class="resolve-box box5">
+                                    <h3>Did this resolve your issue ?</h3>
+                                    <input type="button" value="Yes" />
+                                    <input type="button" value="No" />
+                                </div>
+                            </div>
+                            <!--End Notification section5-->
+                            <!--start Notification section6-->
+                            <div class="notification-side notification justify-content-center ">
+                                <div class="side_color2"></div>
+                                <div class="icon">
+                                    <i class="fas fa-info-circle"></i>
+                                    <p>Attention</p>
+                                </div>
+                                <div>
+                                    <div class="notification-content">
+                                        <a class="option-show6"><img src="Images/more-options.png" /> </a>
+                                        <div class="break"></div>
+                                        <h2>Can't Launch a game or a app ? </h2>
+                                        <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
+                                    </div>
+
+                                </div>
+                                <div class="resolve-box box6">
+                                    <h3>Did this resolve your issue ?</h3>
+                                    <input type="button" value="Yes" />
+                                    <input type="button" value="No" />
+                                </div>
+                            </div>
+                            <!--End Notification section6-->
+                            <!--Start Notification section7-->
+                            <div class="notification-side notification-hide justify-content-center ">
+                                <div class="side_color2"></div>
+                                <div class="icon">
+                                    <i class="fas fa-info-circle"></i>
+                                    <p>Attention</p>
+                                </div>
+                                <div>
+                                    <div class="notification-content">
+                                        <a class="option-show7"><img src="Images/more-options.png" /> </a>
+                                        <div class="break"></div>
+                                        <h2>Can't Launch a game or a app ? </h2>
+                                        <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
+                                    </div>
+
+                                </div>
+                                <div class="resolve-box box7">
+                                    <h3>Did this resolve your issue ?</h3>
+                                    <input type="button" value="Yes" />
+                                    <input type="button" value="No" />
+                                </div>
+                            </div>
+                            <!--End Notification section7-->
+                            <input type="button" id="More" value="More" />
+                            <input type="button" id="Less" value="Less" disabled />
+
+
+                        </div>
                     </div>
+
                 </div>
 
             </div>
 
-        </div>
-    </section>
 
-    <!-- End Questions Content-->
-    <!--Start Notification Section-->
-    <section class="notification-sec">
-        <div class="container-fluid">
-
-            <div class="row d-flex justify-content-between">
-
-                <div class="side1 col-lg-5 text-center">
-                    <img src="Images/waving-hand.png" />
-                    <h2>Hey there!</h2>
-                    <p>Things often go a lot faster when we know you.</p>
-                    <input type="button" value="Sign in" />
-                </div>
-
-                <div class="side2 col-lg-7">
-                    <div>
-                        <h3>Notifications</h3>
-
-                        <!--start Notification section1-->
-
-                        <div class="notification-side d-flex justify-content-center">
-                            <div class="side_color"></div>
-                            <div class="icon">
-                                <i class="fas fa-exclamation-triangle"></i>
-                                <p>Attention</p>
-                            </div>
-                            <div>
-                                <div class="notification-content">
-                                    <a class="option-show1"><img src="Images/more-options.png" /> </a>
-                                    <div class="break"></div>
-                                    <h2>Can't Launch a game or a app ? </h2>
-                                    <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
-                                </div>
-
-                            </div>
-                            <div class="resolve-box box1">
-                                <h3>Did this resolve your issue ?</h3>
-                                <input type="button" value="Yes" />
-                                <input type="button" value="No" />
-                            </div>
-                        </div>
-                        <!--End Notification section1-->
-                        <!--start Notification section2-->
-
-                        <div class="notification-side d-flex justify-content-center">
-                            <div class="side_color"></div>
-                            <div class="icon">
-                                <i class="fas fa-exclamation-triangle"></i>
-                                <p>Attention</p>
-                            </div>
-                            <div>
-                                <div class="notification-content">
-                                    <a class="option-show2"><img src="Images/more-options.png" /> </a>
-                                    <div class="break"></div>
-                                    <h2>Can't Launch a game or a app ? </h2>
-                                    <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
-                                </div>
-
-                            </div>
-                            <div class="resolve-box box2">
-                                <h3>Did this resolve your issue ?</h3>
-                                <input type="button" value="Yes" />
-                                <input type="button" value="No" />
-                            </div>
-                        </div>
-                        <!--End Notification section2-->
-                        <!--start Notification section3-->
-                        <div class="notification-side d-flex justify-content-center">
-                            <div class="side_color"></div>
-                            <div class="icon">
-                                <i class="fas fa-exclamation-triangle"></i>
-                                <p>Attention</p>
-                            </div>
-                            <div>
-                                <div class="notification-content">
-                                    <a class="option-show3"><img src="Images/more-options.png" /> </a>
-                                    <div class="break"></div>
-                                    <h2>Can't Launch a game or a app ? </h2>
-                                    <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
-                                </div>
-
-                            </div>
-                            <div class="resolve-box box3">
-                                <h3>Did this resolve your issue ?</h3>
-                                <input type="button" value="Yes" />
-                                <input type="button" value="No" />
-                            </div>
-                        </div>
-                        <!--End Notification section3-->
-                        <!--start Notification section4-->
-                        <div class="notification-side  notification justify-content-center ">
-                            <div class="side_color2"></div>
-                            <div class="icon">
-                                <i class="fas fa-info-circle"></i>
-                                <p>Attention</p>
-                            </div>
-                            <div>
-
-                                <div class="notification-content">
-                                    <a class="option-show4"><img src="Images/more-options.png" /> </a>
-                                    <div class="break"></div>
-                                    <h2>Can't Launch a game or a app ? </h2>
-                                    <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
-                                </div>
-
-                            </div>
-                            <div class="resolve-box box4">
-                                <h3>Did this resolve your issue ?</h3>
-                                <input type="button" value="Yes" />
-                                <input type="button" value="No" />
-                            </div>
-                        </div>
-
-
-                        <!--End Notification section4-->
-                        <!--start Notification section5-->
-                        <div class="notification-side notification justify-content-center  ">
-                            <div class="side_color2"></div>
-                            <div class="icon">
-                                <i class="fas fa-info-circle"></i>
-                                <p>Attention</p>
-                            </div>
-                            <div>
-                                <div class="notification-content">
-                                    <a class="option-show5"><img src="Images/more-options.png" /> </a>
-                                    <div class="break"></div>
-                                    <h2>Can't Launch a game or a app ? </h2>
-                                    <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
-                                </div>
-
-                            </div>
-                            <div class="resolve-box box5">
-                                <h3>Did this resolve your issue ?</h3>
-                                <input type="button" value="Yes" />
-                                <input type="button" value="No" />
-                            </div>
-                        </div>
-                        <!--End Notification section5-->
-                        <!--start Notification section6-->
-                        <div class="notification-side notification justify-content-center ">
-                            <div class="side_color2"></div>
-                            <div class="icon">
-                                <i class="fas fa-info-circle"></i>
-                                <p>Attention</p>
-                            </div>
-                            <div>
-                                <div class="notification-content">
-                                    <a class="option-show6"><img src="Images/more-options.png" /> </a>
-                                    <div class="break"></div>
-                                    <h2>Can't Launch a game or a app ? </h2>
-                                    <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
-                                </div>
-
-                            </div>
-                            <div class="resolve-box box6">
-                                <h3>Did this resolve your issue ?</h3>
-                                <input type="button" value="Yes" />
-                                <input type="button" value="No" />
-                            </div>
-                        </div>
-                        <!--End Notification section6-->
-                        <!--Start Notification section7-->
-
-                        <div class="notification-side notification-hide justify-content-center ">
-                            <div class="side_color2"></div>
-                            <div class="icon">
-                                <i class="fas fa-info-circle"></i>
-                                <p>Attention</p>
-                            </div>
-                            <div>
-                                <div class="notification-content">
-                                    <a class="option-show7"><img src="Images/more-options.png" /> </a>
-                                    <div class="break"></div>
-                                    <h2>Can't Launch a game or a app ? </h2>
-                                    <p>Thanks for your patience while we fix the issue some customers are having launching games or apps. Check here for known issues.</p>
-                                </div>
-
-                            </div>
-                            <div class="resolve-box box7">
-                                <h3>Did this resolve your issue ?</h3>
-                                <input type="button" value="Yes" />
-                                <input type="button" value="No" />
-                            </div>
-                        </div>
-                        <!--End Notification section7-->
-                        <input type="button" id="More" value="More"    />
-                        <input type="button" id="Less" value="Less" disabled/>
-
-
-                    </div>
-                </div>
-
+        </section>
+        <!--End Notification Section-->
+        <!--Start feedback-->
+        <div class="container-fluid feedback-parent d-flex justify-content-center">
+            <div class="feedback-child w-50">
+                <h2>Have Something to say ?</h2>
+                <input type="button" value="Give Feedback" />
             </div>
 
         </div>
+        <!--End feedback-->
 
-
-    </section>
-    <!--End Notification Section-->
-    <!--Start feedback -->
-
-    <div class="container-fluid feedback-parent d-flex justify-content-center">
-        <div class="feedback-child w-50">
-            <h2>Have Something to say ?</h2>
-            <input type="button" value="Give Feedback" />
-        </div>
 
     </div>
-    <!--End feedback -->
-
-
-
-
 
 
 
@@ -323,5 +334,8 @@
     <script src="Scripts/popper.js"></script>
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/JavaScript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
 </body>
 </html>

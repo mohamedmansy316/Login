@@ -1764,6 +1764,7 @@
     <Content Include="fonts\webfonts\fa-brands-400.svg" />
     <Content Include="fonts\webfonts\fa-regular-400.svg" />
     <Content Include="fonts\webfonts\fa-solid-900.svg" />
+    <Content Include="Images\20228.png" />
     <Content Include="Images\more-options.png" />
     <Content Include="Images\RE1Mu3b.png" />
     <Content Include="Images\RW4ESm.png" />
