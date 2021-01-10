@@ -8,18 +8,26 @@ body {
 
 nav {
     background-color: white;
-    height: 86px;
-    a{
-        color:black;
-        margin-left:27px;
-        text-decoration:none;
-        font-size:21px;
-    }&:hover{
-         text-decoration:none;
-     }
-    .navlinks {
-        padding: 28px 0px 0px 50px;
+    padding: 35px;
+
+    a {
+        color: black;
+        margin-left: 27px;
+        text-decoration: none;
+        font-size: 20px;
+        @media(max-width:1014px){
+            margin-left:15px;
+        }
     }
+
+    a:hover {
+        border-bottom: 3px solid black;
+        text-decoration: none;
+        color: black;
+    }
+
+
+
 
     .break-P {
         margin-left: 20px;
@@ -32,6 +40,14 @@ nav {
         position: absolute;
         margin-left: -14px;
     }
+
+    .navlinks {
+        @media(max-width:1125px) {
+            .xbox-logo, .break{
+                display: none;
+            }
+        }
+    }
 }
 .title {
     padding: 51px;
@@ -40,7 +56,7 @@ nav {
     h1{
 
     font-weight: 400;
-    font-size: 31px;
+    font-size: 36px;
     }
 }
 .content {
@@ -50,7 +66,8 @@ nav {
     }
 
     .contact-image {
-            background-color: rgb(249, 249, 249);
+        background-color: rgb(249, 249, 249);
+
         img {
             float: right;
         }
@@ -71,17 +88,27 @@ nav {
         }
     }
 
+    .phone-support {
+        p {
+            margin-left: 20px;
+        }
+    }
+
     .email-support {
-        margin-left: 50px
+        margin-left: 50px;
+
+        p {
+            margin-left: 20px;
+        }
     }
 }
 .Questions-sec {
     .questions {
         background-color: white;
-        margin-top: 40px;
+        margin-top: 15px;
         margin-left: 30px;
         padding: 15px;
-        height: 221px;
+      
         -webkit-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.7);
         -moz-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.7);
         box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.7);
@@ -103,6 +130,7 @@ nav {
             margin-left: 10px;
             color: #107c10;
             text-decoration: underline;
+            
         }
 
         p {
@@ -111,6 +139,11 @@ nav {
 
         img {
             width: 85%;
+        }
+        @media(min-width:992px) {
+            a{
+                margin-top:0px;
+            }
         }
     }
 }
@@ -144,6 +177,11 @@ nav {
             display: none;
         }
 
+        #Less:disabled{
+            background-color:dimgrey;
+
+        }
+
         .resolve-box {
             background-color: white;
             position: absolute;
@@ -168,11 +206,12 @@ nav {
                 }
             }
         }
+
     }
 
     .notification-side {
         padding: 26px 26px 23px 10px;
-        width: 100vh;
+        width: 100%;
         background-color: white;
         box-shadow: 0px 2px 6px -3px;
         position: relative;

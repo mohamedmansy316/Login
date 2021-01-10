@@ -1,4 +1,6 @@
 ﻿$("#More").click(function () {
+    $("#Less").removeAttr("disabled");
+
 
     $(".notification").fadeIn("slow");
         $(".notification").css("display", "flex")
@@ -14,15 +16,30 @@
 $("#Less").click(function () {
 
     $(".notification").fadeOut("slow");
-    $(".notification").css("display", "none")
+    $(".notification").css("display", "none");
+
 
 
     if ($(".notification-hide").css("display", "flex")) {
         $("#Less").click(function () {
             $(".notification-hide").css("display", "none")
         })
+
     }
+
+    if ($(".notification-hide").css("display", "none") || $(".notification").css("display", "none")) {
+
+        $("#Less").attr("disabled", "true");
+       
+    }
+         
+
 });
+
+
+
+
+
 
 $(".option-show1").click(function () {
 

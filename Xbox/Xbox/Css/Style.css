@@ -5,16 +5,19 @@ body {
 
 nav {
   background-color: white;
-  height: 86px; }
+  padding: 35px; }
   nav a {
     color: black;
     margin-left: 27px;
     text-decoration: none;
-    font-size: 21px; }
-  nav:hover {
-    text-decoration: none; }
-  nav .navlinks {
-    padding: 28px 0px 0px 50px; }
+    font-size: 20px; }
+    @media (max-width: 1014px) {
+      nav a {
+        margin-left: 15px; } }
+  nav a:hover {
+    border-bottom: 3px solid black;
+    text-decoration: none;
+    color: black; }
   nav .break-P {
     margin-left: 20px; }
   nav .break {
@@ -23,13 +26,16 @@ nav {
     height: 29px;
     position: absolute;
     margin-left: -14px; }
+  @media (max-width: 1125px) {
+    nav .navlinks .xbox-logo, nav .navlinks .break {
+      display: none; } }
 
 .title {
   padding: 51px;
   margin-left: 118px; }
   .title h1 {
     font-weight: 400;
-    font-size: 31px; }
+    font-size: 36px; }
 
 .content h2 {
   margin-top: 19px;
@@ -47,15 +53,18 @@ nav {
   color: white;
   font-weight: 400;
   font-size: 18px; }
+.content .phone-support p {
+  margin-left: 20px; }
 .content .email-support {
   margin-left: 50px; }
+  .content .email-support p {
+    margin-left: 20px; }
 
 .Questions-sec .questions {
   background-color: white;
-  margin-top: 40px;
+  margin-top: 15px;
   margin-left: 30px;
   padding: 15px;
-  height: 221px;
   -webkit-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.7);
   -moz-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.7);
   box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.7); }
@@ -77,6 +86,9 @@ nav {
     margin: 15px 0px; }
   .Questions-sec .questions img {
     width: 85%; }
+  @media (min-width: 992px) {
+    .Questions-sec .questions a {
+      margin-top: 0px; } }
 
 .notification-sec {
   margin-top: 60px; }
@@ -93,6 +105,8 @@ nav {
     display: none; }
   .notification-sec .side2 .notification-hide {
     display: none; }
+  .notification-sec .side2 #Less:disabled {
+    background-color: dimgrey; }
   .notification-sec .side2 .resolve-box {
     background-color: white;
     position: absolute;
@@ -114,7 +128,7 @@ nav {
         background-color: #2a292926; }
   .notification-sec .notification-side {
     padding: 26px 26px 23px 10px;
-    width: 100vh;
+    width: 100%;
     background-color: white;
     box-shadow: 0px 2px 6px -3px;
     position: relative;
